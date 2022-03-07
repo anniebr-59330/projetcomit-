@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel=" stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Libre+Baskerville&family=Poppins:wght@200&family=Roboto&family=Roboto+Mono:wght@100&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+        <title>Nous contacter</title>
+</head>
+<body>
+    <!-- déclaration de la barre de navigation-->
+    <header class="navbar navbar-expand-md navbar-light" bg-dark style= "background-color: #89DA59">
+    <!--logo du comité-->
+        <a class="navbar-brand" href="index.html"><img src="media/logo.jpg" width="60" height="60"  alt="logo"></a>
+    <!--bouton masquants les éléments de navigation-->
+        <button
+            type ="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarnavdropdown"
+            aria-controls="#navbarnavdropdown"
+            aria-expanded="false"
+            aria-label="toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+            </svg>                 
+        </button>
+    <!--éléments de navigation-->
+        <div class="collapse navbar-collapse" id="navbarnavdropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="association.html">L'Association</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="manisfestations.html">Nos manifestations</a>
+                </li>                    
+                <li class="nav-item">
+                <a class="nav-link" href="contact2.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--contact-->
+    <main class="container">
+        <div class="title">
+        Vous souhaitez rejoindre notre association ?<br>
+        Contacter nous !
+        </div>
+    
+    <form method="post" action="#">
+        <label for="lastname">Nom</label>
+        <input type="text" id="lastname" placeholder="Saisissez votre nom" name="lastname">
+        <label for="lastname">Prénom</label>
+        <input type="text" id="firstname" placeholder="Saisissez votre prénom " name="firstname">
+        <label for="lastname">Adresse</label>
+        <input type="text" id="address" placeholder="Saisissez votre adresse" name="address">
+        <label for="lastname">Email</label>
+        <input type="email" id="email" placeholder="Saisissez votre email" name="email">
+         <button type="submit">Valider</button>
+    </form>   
+    </main>    
+
+   <footer>
+    <address>E mail : comitedesfetesbeaufort@gmail.com</address>
+    <span>Copyright © from Annie( )-2022 - Tous droits réservés</span>
+    <div id="icons">
+        <a href="https://facebook.com/Beaufort-Comité-des-fêtes-1001554053334212"><i class="fa fa-facebook-official">
+            
+        </i> </a>
+    </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+</html>

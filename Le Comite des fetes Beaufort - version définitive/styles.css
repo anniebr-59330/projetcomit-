@@ -1,0 +1,270 @@
+/**--font-family: 'Barlow', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Titillium Web', sans-serif;--*/
+
+body{
+    background-color: #80bd9e;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    height: 100vh;
+    
+}
+/*--mise en page des titres--*/
+h1{
+    padding: 15px;
+    font-size: 1.3em;
+}
+
+h1,h5,h2,h3{
+    text-align: center;
+}
+h2{
+    padding-top: 5px;
+    font-size: 1.1em;
+}
+h3{
+    padding: 5px;
+    font-size: 1em;
+    text-decoration: underline;
+}
+h5{
+    font-size: 0.8em;
+}
+h6{
+    text-align:center ;
+    padding: 8px;
+}
+
+/*--style de la navbar--*/
+
+li.nav-item{
+    font-size: 0.8em;
+    padding-left: 30px;   
+}
+
+/*--style page d'accueil--*/
+#main-content{
+    height:auto;
+    width: auto;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+aside#home{
+    display: inline-block;
+    flex-direction:row ;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+img.imgHome{
+    height: 30vh;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    position: relative;
+   
+}
+
+/*--mise en page des textes des cartes dans la page d'accueil--*/
+#card{ 
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+article.card{
+    display: inline;
+    height: auto;
+    width: 30vw;
+    align-items: center; 
+    padding-bottom: 5px;
+    
+}
+div.card-body{
+    text-align: center;
+    font-size: 0.6em;
+    height: auto;
+    padding: 5px;
+}
+div.card-body p{
+    font-size: 0.5em;
+}
+
+/* styles page Association*/
+#main-association{
+   margin: 3vh; 
+}
+.associationText{
+font-size: 0.7em;
+padding: 0px;
+}
+.listAssociation {
+    font-size: 0.8em;
+}
+
+
+section.images
+{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+   
+}
+/* style des images dans la page Nos manifestations*/
+.imageflottante{
+    float: none;
+    clear: both;
+    padding-left: 20px;
+}
+.text-manifestation{
+padding: 10px;
+font-size: 0.8em;
+}
+.listManifestation{
+    font-size: 0.8em;
+}
+
+/* style Footer*/
+footer{
+    text-align: center;
+    background-color:  #89DA59; 
+    padding: 15px;
+    font-size: 0.8em;
+    height: 15vh;
+}
+address{
+    font-size: 0.8em;
+}
+
+span{
+    font-size: 0.7em;
+}
+
+
+@media only screen and (min-width: 768px) 
+{
+    /*--style de la navbar--*/
+    
+    li.nav-item{
+        font-size: 1em;
+        padding-left: 30px;
+    }
+
+    /*--style page d'accueil--*/
+    #main-content{
+        height:auto;
+        width: auto;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    aside#home{
+        display: inline-block;
+        flex-direction:row ;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center; 
+    }
+    
+    img.imgHome{
+        height: 45vh;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        position: relative; 
+    }
+    
+    /*--mise en page des textes des cartes dans la page d'accueil--*/
+    #card{ 
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    article.card{
+        display: inline;
+        height: auto;
+        width: 25vw;
+        align-items: center; 
+        padding-bottom: 5px; 
+    }
+    
+    div.card-body{
+        text-align: center;
+        font-size: 0.9em;
+        height: auto;
+        padding: 5px;
+    }
+    div.card-body p{
+        font-size: 0.7em;
+    }
+    
+    /* styles page Association*/
+    #main-association{
+       margin:1vh; 
+       height: 100vh;
+    }
+    .associationText{
+    font-size: 0.8em;
+    padding-left: 10px;
+    }
+    .listAssociation {
+        font-size: 0.7em;
+    }
+       
+    section.images
+    {
+        padding :0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .img-section{
+        height: 35vh;
+        width: 20vw; 
+        vertical-align: baseline;   
+    }
+    .img-section2{
+        height: 30vh;
+        width: 35vw; 
+        vertical-align: baseline;  
+    }
+ /* style des images dans la page Nos manifestations*/
+    .imageflottante{
+    float: left;
+    clear: both;
+    padding-right:35px;
+}
+    .listManifestation .text-manifestation{
+        font-size: 0.8em;
+}
+/*--.text-manifestation{
+    font-size: 0.8em;
+}--*/
+      
+}
